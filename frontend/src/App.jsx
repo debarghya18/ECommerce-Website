@@ -15,15 +15,15 @@ const App=()=>{
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
       <Navbar />
       <Routes>
-          <Route path='/' element='{<Home/>}' />
-          <Route path='/collection' element='{<Collection/>}' />
-          <Route path='/about' element='{<About/>}' />
-          <Route path='/contact' element='{<Contact/>}' />
-          <Route path='/product/:productId' element='{<Product/>}' />
-          <Route path='/cart' element='{<Cart/>}' />
-          <Route path='/login' element='{<Login/>}' />
-          <Route path='/placeOrder' element='{<PlaceOrder/>}' />
-          <Route path='/orders' element='{<Orders/>}' />
+          <Route path='/' />
+          <Route path='/collection'  />
+          <Route path='/about'  />
+          <Route path='/contact' />
+          <Route path='/product/:productId'  />
+          <Route path='/cart'  />
+          <Route path='/login' />
+          <Route path='/placeOrder'  />
+          <Route path='/orders'  />
       </Routes>
     </div>
   )
