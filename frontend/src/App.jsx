@@ -2,6 +2,10 @@ import React from 'react'
 
 const App=()=>{
   return(
-    <h1>hello</h1>
+    <div className='px-4 sm:px-[5vw] md:px-[7vw]'>
+
+    </div>
   )
 }
+
+export default App;
